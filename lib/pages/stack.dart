@@ -37,10 +37,12 @@ class StackPage extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(30.0)),
                 ),
-                child: Container(
-                  child: StylingText(val: 0),
-                  width: fullwidth,
-                  height: fullheight,
+                child: Align(
+                  child: Container(
+                    child: StylingText(val: 0),
+                    width: fullwidth,
+                    height: fullheight,
+                  ),
                 ),
               ),
             ),
@@ -63,11 +65,6 @@ class StackPage extends StatelessWidget {
               topValue: 600,
               setcolor: Colors.pink,
               val: 4,
-            ),
-            SetCard(
-              topValue: 750,
-              setcolor: Colors.deepPurple,
-              val: 5,
             ),
           ],
         ),
@@ -109,6 +106,4 @@ class SetCard extends StatelessWidget {
   }
 }
 
-void choices(String choice) {
-  
-}
+void choices(String choice) {}
