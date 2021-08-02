@@ -1,16 +1,9 @@
-# as_task2
+# Second Task at Augersoft
 
-A new Flutter project.
+## Description
+Make a same UI using stack and listView so that can be scrollable
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![WhatsApp Image 2021-08-03 at 2 31 14 AM](https://user-images.githubusercontent.com/87908817/127926846-11d67b60-60be-46ac-9bb6-231dbc6f5f48.jpeg)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
