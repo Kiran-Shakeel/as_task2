@@ -4,7 +4,7 @@ class StylingText extends StatelessWidget {
   final int val;
   const StylingText({Key? key, required this.val}) : super(key: key);
 
-  static Color pink = Color(hexColor("#E58D8D"));
+  
 
   @override
   Widget build(BuildContext context) {
@@ -19,9 +19,3 @@ class StylingText extends StatelessWidget {
   }
 }
 
-int hexColor(String color) {
-  String newColor = '0xff' + color;
-  newColor = newColor.replaceAll("#", '');
-  int finalColor = int.parse(newColor);
-  return finalColor;
-}
